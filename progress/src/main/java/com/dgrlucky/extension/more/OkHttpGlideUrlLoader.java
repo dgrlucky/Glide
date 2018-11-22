@@ -66,8 +66,3 @@ public class OkHttpGlideUrlLoader implements ModelLoader<GlideUrl, InputStream> 
         public void teardown() {}
     }
 }
-
-作者：luoqiang108
-链接：https://www.jianshu.com/p/4f457a124d67
-來源：简书
-简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。

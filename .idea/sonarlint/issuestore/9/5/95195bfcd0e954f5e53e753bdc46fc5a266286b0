@@ -1,0 +1,19 @@
+
+|squid:S1450"[Remove the "screenHeight" field and declare it as a local variable in the relevant methods.(óúæûÿÿÿÿ8‡ô‘Ïó,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÓÉÍüÿÿÿÿ8‡ô‘Ïó,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ˆ†¬’8‡ô‘Ïó,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ƒ£Ÿœüÿÿÿÿ8‡ô‘Ïó,
+Qsquid:S1068"0Remove this unused "screenHeight" private field.(óúæûÿÿÿÿ8‡ô‘Ïó,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ßèƒ8‡ô‘Ïó,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(…İÕøüÿÿÿÿ8‡ô‘Ïó,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(é¹êéıÿÿÿÿ8‡ô‘Ïó,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¬óì8‡ô‘Ïó,
+ysquid:S1450"XRemove the "viewPager" field and declare it as a local variable in the relevant methods.(åÙ¬Ïûÿÿÿÿ8‡ô‘Ïó,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(»ıØÖüÿÿÿÿ8‡ô‘Ïó,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğŒÂ´şÿÿÿÿ8‡ô‘Ïó,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¹Ñöï8‡ô‘Ïó,
+Gsquid:S1172"&Remove these unused method parameters.(õÄí‘şÿÿÿÿ8‡ô‘Ïó,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(áá„üÿÿÿÿ8‡ô‘Ïó,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(“ï“¹üÿÿÿÿ8‡ô‘Ïó,
+Jsquid:S1068"/Remove this unused "screenWidth" private field.(ºâ÷18‡ô‘Ïó,
+usquid:S1450"ZRemove the "screenWidth" field and declare it as a local variable in the relevant methods.(ºâ÷18‡ô‘Ïó,

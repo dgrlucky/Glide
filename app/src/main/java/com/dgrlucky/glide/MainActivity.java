@@ -27,7 +27,6 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -50,6 +49,8 @@ import com.dgrlucky.extension.body.ProgressInfo;
 import com.dgrlucky.extension.more.DownloadImage;
 import com.dgrlucky.extension.more.MyGlideUrl;
 import com.dgrlucky.extension.more.MyLayout;
+import com.dgrlucky.glide.more.GlideActivity;
+import com.sunfusheng.GlideImageView;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -108,7 +109,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public String url = "http://img10.360buyimg" +
             ".com/sku/jfs/t22723/170/2314708222/3557070/68ef7f44/5b7bc247N894c9b7b.jpg";
 
-    private ImageView mImageView;
+    private GlideImageView mImageView;
     private OkHttpClient mOkHttpClient;
     private ProgressBar mGlideProgress;
     private ProgressBar mDownloadProgress;
@@ -148,6 +149,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.download_start).setOnClickListener(this);
         findViewById(R.id.upload_start).setOnClickListener(this);
         findViewById(R.id.advance).setOnClickListener(this);
+        mImageView.setOnLongClickListener(v -> {
+            startActivity(new Intent(MainActivity.this,GlideActivity.class));
+            return true;
+        });
     }
 
     private void initListener() {
@@ -441,15 +446,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Glide.with(this)
                 .load("https://www.baidu.com/img/bd_logo1.png")
                 .preload();
-        GlideApp.with(this)
-                .load(url)
-                .placeholder(R.color.colorAccent)
-                .error(R.color.colorAccent)
-                .skipMemoryCache(true)
-                .diskCacheStrategy(DiskCacheStrategy.NONE)
-                .override(Target.SIZE_ORIGINAL)
-                .circleCrop()
-                .into(mImageView);
+//        GlideApp.with(this)
+//                .load(url)
+//                .placeholder(R.color.colorAccent)
+//                .error(R.color.colorAccent)
+//                .skipMemoryCache(true)
+//                .diskCacheStrategy(DiskCacheStrategy.NONE)
+//                .override(Target.SIZE_ORIGINAL)
+//                .circleCrop()
+//                .into(mImageView);
 
         String url = "http://guolin.tech/book.png";
         options = new RequestOptions()

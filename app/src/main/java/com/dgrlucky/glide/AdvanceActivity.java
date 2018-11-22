@@ -26,6 +26,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.dgrlucky.extension.GlideApp;
 import com.dgrlucky.extension.ProgressListener;
 import com.dgrlucky.extension.ProgressManager;
 import com.dgrlucky.extension.body.ProgressInfo;
@@ -328,7 +329,7 @@ public class AdvanceActivity extends AppCompatActivity implements View.OnClickLi
      * 即重复加载同一个 Url 时,停止还在请求当中的进度,再开启新的加载
      */
     private void glideStart() {
-        GlideApp.with(this)
+        GlideApp.with(this.getApplicationContext())
                 .load(mNewImageUrl)
                 .centerCrop()
                 .placeholder(R.color.colorPrimary)

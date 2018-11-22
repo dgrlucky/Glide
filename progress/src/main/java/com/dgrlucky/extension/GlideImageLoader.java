@@ -31,7 +31,7 @@ public class GlideImageLoader {
         onConnecting();
 
         //set Listener & start
-        ProgressAppGlideModule.expect(url, new ProgressAppGlideModule.UIonProgressListener() {
+        GlideConfiguration.expect(url, new GlideConfiguration.UIonProgressListener() {
             @Override
             public void onProgress(long bytesRead, long expectedLength) {
                 if (mProgressBar != null) {
@@ -52,14 +52,14 @@ public class GlideImageLoader {
                 .listener(new RequestListener<Drawable>() {
                     @Override
                     public boolean onLoadFailed(@Nullable GlideException e, Object model, Target<Drawable> target, boolean isFirstResource) {
-                        ProgressAppGlideModule.forget(url);
+                        GlideConfiguration.forget(url);
                         onFinished();
                         return false;
                     }
 
                     @Override
                     public boolean onResourceReady(Drawable resource, Object model, Target<Drawable> target, DataSource dataSource, boolean isFirstResource) {
-                        ProgressAppGlideModule.forget(url);
+                        GlideConfiguration.forget(url);
                         onFinished();
                         return false;
                     }

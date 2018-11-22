@@ -1,0 +1,4 @@
+
+"squid:ClassVariableVisibilityCheck"PMake desc a static final constant or non-public and provide accessors if needed.(õÄ‘Êşÿÿÿÿ
+ƒ"squid:ClassVariableVisibilityCheck"RMake images a static final constant or non-public and provide accessors if needed.(ÖğØáøÿÿÿÿ
+=squid:S1948"#Make "images" private or transient.(ÖğØáøÿÿÿÿ

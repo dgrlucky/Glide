@@ -10,11 +10,6 @@
 
 ## Listen the progress of  downloading and uploading in Okhttp (compatible Retrofit and Glide).
 
-
-## Overview
-![gif](arts/progressManager.gif)
-
-
 ## Introduction
 **ProgressManager** 一行代码即可监听 **App** 中所有网络链接的上传以及下载进度,包括 **Glide** 的图片加载进度,实现原理类似 **EventBus**,你可在 **App** 中的任何地方,将多个监听器,以 **Url** 地址作为标识符,注册到本框架,当此 **Url** 地址存在下载或者上传的动作时,框架会主动调用所有使用此 **Url** 地址注册过的监听器,达到多个模块的同步更新.
 
@@ -32,10 +27,6 @@
 * 默认运行在主线层,少去了切换线程的烦恼.
 * 轻量级框架,不包含任何三方库,体积极小.
 
-## Download
-``` gradle
- implementation 'me.jessyan:progressmanager:1.5.0'
-```
 
 ## Usage
 ### Step 1
@@ -66,11 +57,6 @@
  -keep interface me.jessyan.progressmanager.** { *; }
 ```
 
-## About Me
-* **Email**: <jess.yan.effort@gmail.com>
-* **Home**: <http://jessyan.me>
-* **掘金**: <https://juejin.im/user/57a9dbd9165abd0061714613>
-* **简书**: <https://www.jianshu.com/u/1d0c0bc634db>
 
 ## License
 ```

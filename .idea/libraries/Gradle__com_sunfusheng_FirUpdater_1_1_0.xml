@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sunfusheng:FirUpdater-1.1.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/FirUpdater-1.1.0.aar/b1d322058b643db78764e4ffabd2b47d/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/FirUpdater-1.1.0.aar/b1d322058b643db78764e4ffabd2b47d/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sunfusheng/FirUpdater/1.1.0/3ad8161963547d8da31f9d5e82e70cf6f8964bcd/FirUpdater-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

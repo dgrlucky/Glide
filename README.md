@@ -12,8 +12,6 @@
 
 [中文说明](README-zh.md)
 
-## Overview
-![gif](arts/progressManager.gif)
 
 ## Introduction
 **ProgressManager** a line of code to listen **App** all the links and upload the progress of the network, including **Glide** picture loading progress, to achieve the principle of similar **EventBus**, you can be in anywhere in **App**, the number of listeners to **Url** address as an identifier, registered to the framework, when this **Url** address haves to download or upload the action, the framework will take the initiative to call All listeners registered with this **Url** address are synchronized to multiple modules.
@@ -30,11 +28,6 @@
 * Automatic management of the listener, less to manually cancel the trouble of the listener.
 * The default run in the main line layer, less to switch the thread of trouble.
 * Lightweight framework, does not contain any three-party library, very small size.
-
-## Download
-``` gradle
- implementation 'me.jessyan:progressmanager:1.5.0'
-```
 
 ## Usage
 ### Step 1
@@ -64,12 +57,6 @@
  -keep class me.jessyan.progressmanager.** { *; }
  -keep interface me.jessyan.progressmanager.** { *; }
 ```
-
-## About Me
-* **Email**: <jess.yan.effort@gmail.com>
-* **Home**: <http://jessyan.me>
-* **掘金**: <https://juejin.im/user/57a9dbd9165abd0061714613>
-* **简书**: <https://www.jianshu.com/u/1d0c0bc634db>
 
 ## License
 ```
